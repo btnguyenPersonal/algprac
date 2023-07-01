@@ -1,0 +1,1 @@
+# algorithm practicing in c
