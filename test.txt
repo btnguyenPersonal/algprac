@@ -1,0 +1,28 @@
+// Parking Ramp simulator
+
+/*
+    we have a problem with employees not knowing where to park, and having to go all around all of the parking ramps to find a spot
+    we also collect all of the parking ramp data of what cars are parked where currently and what spots are open
+    we'd like you to create a function that will give back what spot the employee should park at, and update the parking data
+    here is the structure of parking.json, which is the data of what parking ramp data we have currently:
+
+    {
+        ramps: [
+            {
+                number: '1'
+                location: '711 High Street'
+                floors: [
+                    [
+                        { spot: 1, handicap: false, small_spot: true, under_construction: false, is_occupied: false },
+                        { spot: 2, handicap: true, small_spot: false, under_construction: false, is_occupied: true },
+                        { spot: 3, handicap: false, small_spot: false, under_construction: false, is_occupied: true },
+                        { spot: 4, handicap: true, small_spot: false, under_construction: true, is_occupied: false },
+                        ...
+                    ],
+                    ...
+                ]
+            },
+            ...
+        ]
+    }
+*/
